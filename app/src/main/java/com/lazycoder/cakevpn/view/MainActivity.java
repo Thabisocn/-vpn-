@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.lazycoder.cakevpn.R;
 import com.lazycoder.cakevpn.adapter.ServerListRVAdapter;
 import com.lazycoder.cakevpn.interfaces.ChangeServer;
@@ -34,7 +36,10 @@ public class MainActivity extends AppCompatActivity implements NavItemClickListe
     private DrawerLayout drawer;
     private ChangeServer changeServer;
 
-    public static final String TAG = "CakeVPN";
+    private AdView adView;
+    AdRequest adRequest;
+
+    public static final String TAG = "IO VPN";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +54,10 @@ public class MainActivity extends AppCompatActivity implements NavItemClickListe
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        adView = (AdView) findViewById(R.id.adView);
+        adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

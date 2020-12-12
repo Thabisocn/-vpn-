@@ -4,12 +4,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/rightNav"
+    android:background="#ffffff"
     android:paddingTop="50dp">
 
     <TextView
         android:gravity="center"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="choose your location"
@@ -20,7 +20,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
-        android:background="#ffffff"
+        android:textColor="#000000"
         android:layout_width="match_parent"
         android:layout_height="0.5dp" />
 
@@ -91,9 +91,17 @@
 <!--                    />-->
 <!--            </LinearLayout>-->
 <!--        </LinearLayout>-->
+
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/serverListRv"/>
+
+
+
+
+
     </ScrollView>
+
+
 </LinearLayout>

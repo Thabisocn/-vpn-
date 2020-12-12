@@ -21,6 +21,8 @@ import androidx.fragment.app.Fragment;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.lazycoder.cakevpn.CheckInternetConnection;
 import com.lazycoder.cakevpn.R;
 import com.lazycoder.cakevpn.SharedPreference;
@@ -50,6 +52,8 @@ public class MainFragment extends Fragment implements View.OnClickListener, Chan
     boolean vpnStart = false;
     private SharedPreference preference;
 
+
+
     private FragmentMainBinding binding;
 
     @Override
@@ -57,6 +61,8 @@ public class MainFragment extends Fragment implements View.OnClickListener, Chan
                              Bundle savedInstanceState) {
 
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_main, container, false);
+
+
 
         View view = binding.getRoot();
         initializeAll();
