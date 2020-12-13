@@ -68,9 +68,10 @@ public class AppIntro extends AppCompatActivity {
         // fill list screen
 
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Fresh Food","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img1));
-        mList.add(new ScreenItem("Fast Delivery","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img2));
-        mList.add(new ScreenItem("Easy Payment","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",R.drawable.img3));
+        mList.add(new ScreenItem("Privacy","by masking things like your IP address, location, and search history, to keep them from being tracked by websites, internet browsers, cable companies, internet service providers (ISPs), and others.",R.drawable.shield));
+        mList.add(new ScreenItem("Security"," Protect your personal information and other data as it’s in transit, or being sent from and received by your device.",R.drawable.lock));
+        mList.add(new ScreenItem("Anonymity","One can easily browse the internet entirely without being traced, compared to other software, one of the benefits of using a VPN connection service is to allow you access to any websites and web applications anonymously.",R.drawable.please));
+        mList.add(new ScreenItem("How to use","Press our connect button in our dashboard and wait to be authenticated thats all! keep the app running in the background. ",R.drawable.pngwing));
 
         // setup viewpager
         screenPager = findViewById(R.id.screen_viewpager);
