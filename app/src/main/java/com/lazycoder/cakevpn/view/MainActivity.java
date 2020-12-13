@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity implements NavItemClickListe
 
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
-        adView = (AdView) findViewById(R.id.adView);
-        adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
+        //adView = (AdView) findViewById(R.id.adView);
+       // adRequest = new AdRequest.Builder().build();
+      //  adView.loadAd(adRequest);
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
