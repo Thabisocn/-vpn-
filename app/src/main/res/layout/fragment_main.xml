@@ -108,7 +108,7 @@
             android:id="@+id/vpnBtn"
             android:layout_width="170dp"
             android:layout_height="55dp"
-            android:background="@drawable/custom_button"
+            android:background="@drawable/btn_gradient_style"
             android:layout_below="@+id/connectionStatus"
             android:text="Connect"
             android:textColor="@color/colorWhite"
