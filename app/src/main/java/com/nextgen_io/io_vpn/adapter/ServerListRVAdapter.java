@@ -1,4 +1,4 @@
-package com.lazycoder.cakevpn.adapter;
+package com.nextgen_io.io_vpn.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,9 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.lazycoder.cakevpn.R;
-import com.lazycoder.cakevpn.interfaces.NavItemClickListener;
-import com.lazycoder.cakevpn.model.Server;
+import com.nextgen_io.io_vpn.R;
+import com.nextgen_io.io_vpn.interfaces.NavItemClickListener;
+import com.nextgen_io.io_vpn.model.Server;
 
 import java.util.ArrayList;
 

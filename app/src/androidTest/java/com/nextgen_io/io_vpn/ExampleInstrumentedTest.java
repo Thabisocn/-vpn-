@@ -1,4 +1,4 @@
-package com.lazycoder.cakevpn;
+package com.nextgen_io.io_vpn;
 
 import android.content.Context;
 

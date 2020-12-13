@@ -1,4 +1,4 @@
-package com.lazycoder.cakevpn.view;
+package com.nextgen_io.io_vpn.view;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,15 +16,15 @@ import android.widget.ImageButton;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.lazycoder.cakevpn.R;
-import com.lazycoder.cakevpn.adapter.ServerListRVAdapter;
-import com.lazycoder.cakevpn.interfaces.ChangeServer;
-import com.lazycoder.cakevpn.interfaces.NavItemClickListener;
-import com.lazycoder.cakevpn.model.Server;
+import com.nextgen_io.io_vpn.R;
+import com.nextgen_io.io_vpn.adapter.ServerListRVAdapter;
+import com.nextgen_io.io_vpn.interfaces.ChangeServer;
+import com.nextgen_io.io_vpn.interfaces.NavItemClickListener;
+import com.nextgen_io.io_vpn.model.Server;
 
 import java.util.ArrayList;
 
-import com.lazycoder.cakevpn.Utils;
+import com.nextgen_io.io_vpn.Utils;
 
 
 public class MainActivity extends AppCompatActivity implements NavItemClickListener {

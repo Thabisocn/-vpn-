@@ -1,4 +1,4 @@
-package com.lazycoder.cakevpn;
+package com.nextgen_io.io_vpn;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
-import com.lazycoder.cakevpn.view.MainActivity;
+import com.nextgen_io.io_vpn.view.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;

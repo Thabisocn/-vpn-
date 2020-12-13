@@ -1,11 +1,9 @@
-package com.lazycoder.cakevpn;
+package com.nextgen_io.io_vpn;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.lazycoder.cakevpn.view.MainActivity;
 
 public class SplashscreenActivity extends AppCompatActivity {
 

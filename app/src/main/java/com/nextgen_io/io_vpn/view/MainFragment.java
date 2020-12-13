@@ -1,4 +1,4 @@
-package com.lazycoder.cakevpn.view;
+package com.nextgen_io.io_vpn.view;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -21,14 +21,12 @@ import androidx.fragment.app.Fragment;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.bumptech.glide.Glide;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.lazycoder.cakevpn.CheckInternetConnection;
-import com.lazycoder.cakevpn.R;
-import com.lazycoder.cakevpn.SharedPreference;
-import com.lazycoder.cakevpn.databinding.FragmentMainBinding;
-import com.lazycoder.cakevpn.interfaces.ChangeServer;
-import com.lazycoder.cakevpn.model.Server;
+import com.nextgen_io.io_vpn.CheckInternetConnection;
+import com.nextgen_io.io_vpn.R;
+import com.nextgen_io.io_vpn.SharedPreference;
+import com.nextgen_io.io_vpn.databinding.FragmentMainBinding;
+import com.nextgen_io.io_vpn.interfaces.ChangeServer;
+import com.nextgen_io.io_vpn.model.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
