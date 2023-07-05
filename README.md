@@ -1,3 +1,7 @@
+## Note
+
+- Fix Connection at PLay store , works locally
+- Authorization keeps changing we have to find a way to automate that
 
 
 ## Note
